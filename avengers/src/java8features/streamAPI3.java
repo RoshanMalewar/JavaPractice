@@ -18,12 +18,12 @@ public class streamAPI3
 		al.add(1);
 		System.out.println(al);
 		
-		Stream<Integer> s1=al.stream();
+		//Stream<Integer> s1=al.stream();
 		
-		Stream<Integer> s2 = s1.map((x)->x*2);
+		//Stream<Integer> s2 = s1.map((x)->x*2);
 		
-		List<Integer> li = s2.collect(Collectors.toList());
-		System.out.println(li);
+	//	List<Integer> li = s2.collect(Collectors.toList());
+		//System.out.println(li);
 		
 		al.stream().map((x)->x*2).collect(Collectors.toList());
 		
